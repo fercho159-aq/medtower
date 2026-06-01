@@ -1,0 +1,13 @@
+# Respaldos pesados del sitio anterior (no forman parte de medtower)
+respaldo-biofer-junio/
+respaldo-biofer-junio.zip
+_ref_biofert/
+
+# Archivos de sistema / editor
+.DS_Store
+Thumbs.db
+__MACOSX/
+*.log
+
+# Herramientas locales de Claude Code (preview, etc.)
+.claude/
