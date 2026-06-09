@@ -319,7 +319,7 @@ TEMPLATE = '''<!DOCTYPE html>
           <ul class="includes"><li class="includes-title">Esto incluye</li>{includes}</ul>
           <a href="{wa}" target="_blank" rel="noopener" class="btn btn-accent btn-lg">Agendar cita</a>
         </div>
-        <div class="page-hero-media"><div class="frame"><div class="media-ph">{building}<span>{name}</span></div></div></div>
+        <div class="page-hero-media"><div class="frame"><img class="site-img" src="../assets/especialidades/{slug}.png" alt="{name} — MIT Medical Tower"></div></div>
       </div>
     </div>
   </section>
@@ -333,8 +333,8 @@ TEMPLATE = '''<!DOCTYPE html>
           <a href="{wa}" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:1.25rem">Agendar mi cita</a>
         </div>
         <aside class="media-stack">
-          <div class="frame"><div class="media-ph accent">{facility}<span>Nuestras facilidades</span></div></div>
-          <div class="frame"><div class="media-ph soft">{specialist}<span>Especialistas</span></div></div>
+          <div class="frame"><img class="site-img" src="../assets/imagenes/quirofano-2.jpeg" alt="Instalaciones MIT Medical Tower"></div>
+          <div class="frame"><img class="site-img" src="../assets/imagenes/habitacion-completa.jpeg" alt="Habitación de hospital MIT Medical Tower"></div>
         </aside>
       </div>
     </div>
