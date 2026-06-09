@@ -445,6 +445,8 @@ h1,h2,h3,h4 { line-height:1.2; color:var(--brand-800); font-weight:700; }
   background:radial-gradient(circle at 30% 30%,rgba(78,195,205,.35),transparent 50%),radial-gradient(circle at 75% 75%,rgba(96,165,250,.3),transparent 50%); }
 .map-frame .map-load svg { width:2.25rem; height:2.25rem; position:relative; }
 .map-frame .map-load span { position:relative; font-weight:600; font-size:.85rem; letter-spacing:.03em; }
+.map-frame .map-load address { position:relative; font-style:normal; font-size:.85rem; font-weight:500; color:rgba(255,255,255,.92); text-align:center; max-width:22rem; line-height:1.5; padding-inline:1rem; }
+.map-frame .map-load .map-sub { position:relative; font-size:.72rem; font-weight:500; color:rgba(255,255,255,.7); text-transform:uppercase; letter-spacing:.08em; }
 .map-frame .map-load:hover { filter:brightness(1.06); }
 .map-directions { display:inline-flex; align-items:center; gap:.5rem; margin-top:.75rem; font-weight:600; font-size:.9rem; color:var(--brand-600); }
 .map-directions:hover { color:var(--brand-700); }
