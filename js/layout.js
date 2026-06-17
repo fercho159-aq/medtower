@@ -4,6 +4,20 @@
    Se incluye ANTES de main.js en todas las páginas.
    Rutas root-relativas (/...) — el sitio se sirve desde la raíz del dominio.
    ========================================================================== */
+
+/* Google Analytics 4 — dispara en todas las páginas del sitio */
+(function () {
+  var GA_ID = 'G-61S9GSVGWE';
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', GA_ID);
+})();
+
 (function () {
   'use strict';
 
